@@ -1,5 +1,4 @@
 *{
-    /* background-color: #303030; */
     color: white;
     font-family: 'Lato', sans-serif;
     
@@ -15,6 +14,7 @@ html {
 header{
     display: flex;
 }
+
 
 .navigation {
 
@@ -77,10 +77,62 @@ nav.ul{
 
 
  footer {
-    /* background-color: #373738; */
     padding: 2% 3% 1% 6%;
     vertical-align: bottom;
 }
 
+/* ____myUXSkills CSS____ */
 
- 
+h1{
+    padding: 5%;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    width: 100%;
+}
+
+.skill {
+    width: 33%;
+    padding: 3%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.uxDesIm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.logoDes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.photoEd{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ____MyWork CSS____ */
+
+.turleReDes {
+
+    align-items: center;
+    margin-left: 10%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 75%;
+    padding: 10%;
+    gap: 5%;
+}
