@@ -16,11 +16,6 @@ header{
     height: 15%;
 }
 
-
-.navigation {
-
-}
-
 div.inline-block {
     display: inline-block;
 }
@@ -41,7 +36,7 @@ ul {
 
 }
 
-nav.ul{
+nav.ul {
     list-style-type: none;
 }
 
@@ -85,7 +80,7 @@ nav.ul{
 
 /* ____myUXSkills CSS____ */
 
-h1{
+h1 {
     padding: 5%;
     text-align: center;
 }
@@ -111,13 +106,13 @@ h3 {
 
 }
 
-.logoDes{
+.logoDes {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.photoEd{
+.photoEd {
     display: flex;
     flex-direction: column;
     width: 100%;
