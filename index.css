@@ -131,3 +131,22 @@ h3 {
     padding: 10%;
     gap: 5%;
 }
+
+@media screen and (max-width: 600px){
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .div.flexContainer {
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 0fr;
+        grid-template-areas: 
+        "turtle turtle"
+        "sound sound"
+        ;
+    }
+}
