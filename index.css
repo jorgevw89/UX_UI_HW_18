@@ -11,20 +11,15 @@ html {
     background-position: center;
 }
 
-header{
+header {
     display: flex;
-}
-
-
-.navigation {
-
 }
 
 div.inline-block {
     display: inline-block;
 }
 
-nav.inline-block{
+nav.inline-block {
     display: flex;
     width: 50%;
 }
@@ -40,7 +35,7 @@ ul {
 
 }
 
-nav.ul{
+nav.ul {
     list-style-type: none;
 }
 
@@ -109,13 +104,13 @@ h3 {
 
 }
 
-.logoDes{
+.logoDes {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.photoEd{
+.photoEd {
     display: flex;
     flex-direction: column;
     width: 100%;
