@@ -13,6 +13,7 @@ html {
 
 header{
     display: flex;
+    height: 15%;
 }
 
 
@@ -79,6 +80,7 @@ nav.ul{
  footer {
     padding: 2% 3% 1% 6%;
     vertical-align: bottom;
+
 }
 
 /* ____myUXSkills CSS____ */
@@ -123,16 +125,52 @@ h3 {
 
 /* ____MyWork CSS____ */
 
-.turleReDes {
+.workNav {
+    height: 5%;
+}
 
+.itMe {
+    height: 150px;
+}
+
+.listAndPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listOfWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divsOfdivs {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 10%;
 }
 
-.workGrid {
-    display: grid;
-    grid-template-columns: 15% 85%;
-    grid-template-rows: 75%;
-    padding: 10%;
-    gap: 5%;
+.leftSev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 }
+
+.rightSev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
